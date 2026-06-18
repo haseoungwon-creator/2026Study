@@ -1,12 +1,19 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target;
-    public Vector3 offset;
+    [SerializeField] Transform player;
+    [SerializeField] Vector3 offset;
+    [SerializeField] Rotate rotate;
 
-    void LateUpdate()
+    private void Start()
     {
-        transform.position = target.position + offset;
+
+    }
+
+    private void LateUpdate()
+    {
+        transform.position = player.position + offset;
     }
 }
