@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\bin\Debug\net8.0\TAKEDAMAGE.exe
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\bin\Debug\net8.0\TAKEDAMAGE.deps.json
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\bin\Debug\net8.0\TAKEDAMAGE.runtimeconfig.json
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\bin\Debug\net8.0\TAKEDAMAGE.dll
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\bin\Debug\net8.0\TAKEDAMAGE.pdb
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.AssemblyInfo.cs
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.sourcelink.json
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.dll
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\refint\TAKEDAMAGE.dll
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.pdb
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\TAKEDAMAGE.genruntimeconfig.cache
+C:\Users\admin\Desktop\Unitytraining\study\문제 2\TAKEDAMAGE\obj\Debug\net8.0\ref\TAKEDAMAGE.dll

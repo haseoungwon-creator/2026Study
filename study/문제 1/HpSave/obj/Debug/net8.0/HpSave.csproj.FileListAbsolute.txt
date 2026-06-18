@@ -1,0 +1,14 @@
+C:\Users\owner\Desktop\study\HpSave\bin\Debug\net8.0\HpSave.exe
+C:\Users\owner\Desktop\study\HpSave\bin\Debug\net8.0\HpSave.deps.json
+C:\Users\owner\Desktop\study\HpSave\bin\Debug\net8.0\HpSave.runtimeconfig.json
+C:\Users\owner\Desktop\study\HpSave\bin\Debug\net8.0\HpSave.dll
+C:\Users\owner\Desktop\study\HpSave\bin\Debug\net8.0\HpSave.pdb
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\HpSave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\HpSave.AssemblyInfoInputs.cache
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\HpSave.AssemblyInfo.cs
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\HpSave.csproj.CoreCompileInputs.cache
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\HpSave.dll
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\refint\HpSave.dll
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\HpSave.pdb
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\HpSave.genruntimeconfig.cache
+C:\Users\owner\Desktop\study\HpSave\obj\Debug\net8.0\ref\HpSave.dll

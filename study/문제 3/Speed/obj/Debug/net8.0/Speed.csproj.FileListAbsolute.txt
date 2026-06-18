@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\bin\Debug\net8.0\Speed.exe
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\bin\Debug\net8.0\Speed.deps.json
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\bin\Debug\net8.0\Speed.runtimeconfig.json
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\bin\Debug\net8.0\Speed.dll
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\bin\Debug\net8.0\Speed.pdb
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.AssemblyInfo.cs
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.sourcelink.json
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.dll
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\refint\Speed.dll
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.pdb
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\Speed.genruntimeconfig.cache
+C:\Users\admin\Desktop\2026Study\study\문제 3\Speed\obj\Debug\net8.0\ref\Speed.dll
