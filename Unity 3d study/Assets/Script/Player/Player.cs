@@ -3,12 +3,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float speed = 5f;
+    [SerializeField] float speed = 50f;
     Rigidbody rb;
+    [SerializeField] float knockbackDuration = 0.3f;
     bool TakeDamageStadus = true;
 
+    [SerializeField] float knockbackForce = 5f;
     Vector3 move;
     float x, z;
+    bool isKnockback = false;
 
     int hp = 3;
     Renderer rend;
@@ -23,6 +26,12 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+
+        if (isKnockback)
+        {
+            move = Vector3.zero;
+            return;
+        }
         x = Input.GetAxisRaw("Horizontal");
         z = Input.GetAxisRaw("Vertical");
 
@@ -34,29 +43,25 @@ public class Player : MonoBehaviour
         rb.MovePosition(rb.position + move * speed * Time.fixedDeltaTime);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy") && TakeDamageStadus)
-        {
-            TakeDamage(1);
-            StartCoroutine(TakeDamageColl());
-        }
-    }
 
-    void TakeDamage(int damage)
+
+    public void TakeDamage(int damage, Transform attacker)
     {
+        if (!TakeDamageStadus)
+            return;
+
         hp -= damage;
         Debug.Log("현재 HP: " + hp);
 
-        if (hp <= 0)
-        {
-            Debug.Log("죽음");
-        }
+        ApplyKnockback(attacker);
+
+        StartCoroutine(KnockbackRoutine());
+        StartCoroutine(TakeDamageColl());
     }
 
     public IEnumerator TakeDamageColl()
     {
-        Debug.Log("출동 발생 3초 후 가능");
+        Debug.Log("무적 3초 후 가능");
         TakeDamageStadus = false;
         rend.material.color = Color.red;
 
@@ -66,6 +71,21 @@ public class Player : MonoBehaviour
         rend.material.color = originalColor;
 
         TakeDamageStadus = true;
-        Debug.Log("출동 가능");
+        Debug.Log("무적 불가능");
+    }
+
+    void ApplyKnockback(Transform attacker)
+    {
+        Vector3 dir = (transform.position - attacker.position).normalized;
+        rb.AddForce(dir * 5f, ForceMode.Impulse);
+    }
+
+    IEnumerator KnockbackRoutine()
+    {
+        isKnockback = true;
+
+        yield return new WaitForSeconds(knockbackDuration);
+
+        isKnockback = false;
     }
 }
